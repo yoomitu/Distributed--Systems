@@ -57,7 +57,7 @@ public class TransferController {
         }catch (Throwable t){
 
             t.printStackTrace();
-            return R.error("账号异常");
+            return R.error("账号异常！");
         }
 
 
